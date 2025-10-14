@@ -28,4 +28,7 @@ console.log(typeof(score))
  console.log(typeof stringNumber);
  
  
+ /**********************************OPERATIONS**************************************/
+
+
  
