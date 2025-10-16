@@ -31,3 +31,32 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+// ==========================================================
+
+// Stack (Primitive), always return a copy 
+//  Heap (non primitive) always return a reference
+
+let myCollegeName = "Mewatengineeringcollege"
+
+let anotherName = myCollegeName
+anotherName = "bhkkkbudbak"
+
+console.log(myCollegeName);
+
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@ybl.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ali@ybl.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
